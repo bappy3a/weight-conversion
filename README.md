@@ -1,8 +1,8 @@
-# :package_description
+# Wight conversion in PHP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![Tests](https://img.shields.io/github/actions/workflow/status/:vendor_slug/:package_slug/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/bappy3a/weight-conversion.svg?style=flat-square)](https://packagist.org/packages/bappy3a/weight-conversion)
+[![Tests](https://img.shields.io/github/actions/workflow/status/bappy3a/weight-conversion/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/bappy3a/weight-conversion/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/bappy3a/weight-conversion.svg?style=flat-square)](https://packagist.org/packages/bappy3a/weight-conversion)
 
 This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
  
@@ -11,14 +11,14 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require bappy3a/weight-conversion
 ```
 
 ## Usage
 
 ```php
-$skeleton = new VendorName\Skeleton();
-echo $skeleton->echoPhrase('Hello, VendorName!');
+$skeleton = new Bappy3a\WeightConversion();
+echo $skeleton->echoPhrase('Hello, Bappy3a!');
 ```
 
 ## Testing
@@ -41,7 +41,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [Ahmed Bappy](https://github.com/bappy3a)
 - [All Contributors](../../contributors)
 
 ## License
