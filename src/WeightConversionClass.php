@@ -20,5 +20,4 @@ class WeightConversionClass
     {
         return $this->kilograms * 0.15747;
     }
-
 }
